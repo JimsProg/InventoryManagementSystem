@@ -95,10 +95,9 @@ class InventoryManagementSystem {
 
         System.out.println("Inventory: ");
 
-        for(int i = 0; i < Inventory.size();) {
+        for(int i = 0; i < Inventory.size(); i++) {
             System.out.println(Inventory.get(i));
             System.out.println("--------------------------------");
-            return;
         }
     }
 
